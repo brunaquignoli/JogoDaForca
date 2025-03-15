@@ -1,18 +1,19 @@
-#   organizando o pensamento do jogo da forca:
+#   pensamento do jogo da forca:
 #   perguntar se quer jogar
 #   aceitou?
 #   faz um def pra definir qual vai ser a palavra escolhida
-#   def pra começar o jogo
+#   def para começar o jogo
 #   pede uma letra
 #   verifica se a letra está na palavra
 #   se estiver, mostra o local da letra na palavra
 #   caso contrário, coloca a letra na lista de letras erradas (máximo de 6 > cabeça, tronco, braços, pernas)
 #   ao faltarem 2 letras, pergunta se quer tentar chutar a palavra
-#   sim> acertou? 1000 pontos
+#   sim> acertou? ganhou!
 #   sim> errou? continua
 #   não> continua
-#   acabaram os pontos? > jogo acabou, 0 pontos e pode tentar novamente
-#   se acertou a palavra, ganhou o jogo, 100 pontos
+#   acabaram os pontos? > jogo acabou, humilhação e pode tentar novamente
+#   se acertou a palavra, ganhou o jogo
+#   nas duas situações ele vai dar a opção de jogar novamente
 
 import random
 
